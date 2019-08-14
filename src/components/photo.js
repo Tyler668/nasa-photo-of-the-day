@@ -3,7 +3,6 @@ import React from "react";
 
 
 const Photo = (props) => {
-    console.log(props);
     if (!props.pic) return <h3>Loading...</h3>;
     return (
         
