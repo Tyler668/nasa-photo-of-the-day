@@ -9,7 +9,7 @@ const PhotoContainer = () => {
     //&date=${date}
     useEffect(() =>
         axios
-            .get(`https://api.nasa.gov/planetary/apod?api_key=X4JYcfh7VPW7CneMLFcwSDB6rpdYzPZEj0P9AL32&date=${date}`)
+            .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
             .then(res => {
                 const picInfo = res.data;
                 setPic(picInfo);
@@ -21,5 +21,5 @@ const PhotoContainer = () => {
     );
 }
 
-// https://api.nasa.gov/planetary/apod?api_key=X4JYcfh7VPW7CneMLFcwSDB6rpdYzPZEj0P9AL32
+
 export default PhotoContainer;
