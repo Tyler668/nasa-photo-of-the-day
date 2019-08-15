@@ -27,7 +27,6 @@
   justify-content: center;
   align-content: center;
   margin: auto;
-  /* width: 36%; */
   height: 70%;
 }
 
@@ -39,7 +38,7 @@
 
 }
 
-[type="date"] {
+/* [type="date"] {
   background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
 }
 [type="date"]::-webkit-inner-spin-button {
@@ -50,11 +49,7 @@
 }
 
 /* custom styles */
-body {
-  padding: 4em;
-  background: #e5e5e5;
-  font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
+/* 
 label {
   display: block;
 }
@@ -66,3 +61,8 @@ input {
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
   width: 190px;
 }
+
+.dateDiv{
+  background: black;
+  color: whitesmoke;
+} */ 

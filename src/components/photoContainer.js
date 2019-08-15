@@ -5,11 +5,11 @@ import Photo from "./photo";
 
 const PhotoContainer = () => {
     const [pic, setPic] = useState([]);
-    const date = '2018-03-19';
+    const date = '2019-03-11';
     //&date=${date}
     useEffect(() =>
         axios
-            .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+            .get(`https://api.nasa.gov/planetary/apod?api_key=X4JYcfh7VPW7CneMLFcwSDB6rpdYzPZEj0P9AL32&date=${date}`)
             .then(res => {
                 const picInfo = res.data;
                 setPic(picInfo);
@@ -21,6 +21,5 @@ const PhotoContainer = () => {
     );
 }
 
-
-
+// https://api.nasa.gov/planetary/apod?api_key=X4JYcfh7VPW7CneMLFcwSDB6rpdYzPZEj0P9AL32
 export default PhotoContainer;
